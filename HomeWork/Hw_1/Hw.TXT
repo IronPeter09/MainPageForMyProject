@@ -1,0 +1,10 @@
+1.zdelat malinkii site potkouchit bootstrap 
+2.zagrouzit na github
+
+
+git status
+git add *
+git status
+git commit -m 'some message'
+git status
+git push

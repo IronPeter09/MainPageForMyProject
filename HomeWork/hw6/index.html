@@ -6,8 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Setion Hero Box</title>
+    <!-- add google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <!-- connect ccs -->
-    <link rel="stylesheet" href="../assets/bootstrap-5/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/bootstrap-5/bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <style>
         img {
             margin-left: 4px;
@@ -20,7 +24,28 @@
         body {
             background-color: #fff8ee;
         }
+
+        .my-hero {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .my-hero-hello {
+            color: #000000;
+            font-size: 30px;
+            font-weight: 400;
+
+        }
+
+        .my-hero-welcome {
+            color: #C47344;
+            font-size: 30px;
+            font-weight: 400;
+        }
+        .my-block{
+          width: 30px;
+        }
     </style>
+
 </head>
 
 <body>
@@ -30,9 +55,10 @@
             <!-- logo -->
             <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto ps-md-5 ps-lg-5 text-dark text-decoration-none "
                 href="index.html">
-                <img class="img-fluid " src="../../../../Html_CSS_Start/Step_6/Bootstrap/images/logo.png" alt="Peter's logo">
+                <img class="img-fluid " src="../images/logo.png" alt="Peter's logo">
             </a>
             <!-- menu with button -->
+
             <ul class="nav nav-pills">
                 <li class="nav-item ">
                     <a class="nav-link" href="index.html">
@@ -67,15 +93,50 @@
             </ul>
         </header>
     </div>
+    <!-- HeroBox -->
+    <section class="my-hero mb-5 ">
+
+        <div class="px-4 text-center">
+            <h1 class="display-4 fw-bold">
+                <div style="vertical-align: inherit ;">
+                    <div style="vertical-align: inherit ;" class="my-hero-hello">
+
+                        Hello Everyone I’m Peter!
+                    </div>
+                </div>
+            </h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4 ">
+                <div style="vertical-align: inherit ;">
+                    <div style="vertical-align: inherit ;" class="my-hero-welcome">
+                        And I welcome you to my own online gallery!
+                    </div>
+                </div>
+                </p>
+            </div>
+        </div>
+    </section>
 
     <!-- block with my pictures -->
+
     <section>
+    
+       
+    
         <div class="container">
+                <div style="background: color #fffaf2; border: 1px solid #dddddd; border-radius: 3%;">
+                    <div class="my-block h-35 img-fluid w-100 ps-4 pt-4 pe-4 " >
+                        <img src="../images/previewKPS 1.png">
+
+                    </div>
+
+            </div>
+
             <div class="row">
                 <div class="col-12 col-md-6">
                     <div class="h-35 mb-4  "
                         style="background: color #fffaf2; border: 1px solid #dddddd; border-radius: 3%;">
-                        <img src="../../../../Html_CSS_Start/Step_6/Bootstrap/images/Stroberies.png" alt="Stroberies on the plate"
+                        <img src="../images/Stroberies.png" alt="Stroberies on the plate"
                             class=" img-fluid w-100 ps-4 pt-4 pe-4">
                         <div>
                             <p class="text-center mt-3">Stroberies</p>
@@ -83,7 +144,7 @@
                     </div>
                     <div class="h-65 mb-4  "
                         style="background: color #fffaf2; border: 1px solid #dddddd; border-radius: 3%;">
-                        <img src="../../../../Html_CSS_Start/Step_6/Bootstrap/images/Plash.png" alt="Stroberies on the plate"
+                        <img src="../images/Rectangle 4.png" alt="Stroberies on the plate"
                             class=" img-fluid w-100 ps-4 pt-4 pe-4">
                         <div>
                             <p class="text-center mt-3">Stroberies</p>
@@ -92,40 +153,29 @@
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="h-65 mb-4  "
-                    style="background: color #fffaf2; border: 1px solid #dddddd; border-radius: 3%;">
-                    <img src="../../../../Html_CSS_Start/Step_6/Bootstrap/images/StillLife.png" alt="StillLife"
-                        class=" img-fluid w-100 ps-4 pt-4 pe-4">
-                    <div>
-                        <p class="text-center mt-3">Stroberies</p>
+                        style="background: color #fffaf2; border: 1px solid #dddddd; border-radius: 3%;">
+                        <img src="../images/StillLife.png" alt="StillLife" class=" img-fluid w-100 ps-4 pt-4 pe-4">
+                        <div>
+                            <p class="text-center mt-3">Van Gog's chair</p>
+                        </div>
+                        
                     </div>
-                </div>
-
                     <div class="h-35 mb-4  "
                         style="background: color #fffaf2; border: 1px solid #dddddd; border-radius: 3%;">
-                        <img src="../../../../Html_CSS_Start/Step_6/Bootstrap/images/doodle1.png" alt="Stroberies on the plate"
+                        <img src="../images/Plash.png" alt="Stroberies on the plate"
                             class=" img-fluid w-100 ps-4 pt-4 pe-4">
                         <div>
-                            <p class="text-center mt-3">Stroberies</p>
+                            <p class="text-center mt-3">Sunny Beach</p>
                         </div>
-                        <div class="h-35 mb-4  "
+                    </div>
+                    <div class="h-65 mb-4  "
                         style="background: color #fffaf2; border: 1px solid #dddddd; border-radius: 3%;">
-                        <img src="../../../../Html_CSS_Start/Step_6/Bootstrap/images/doodle1.png" alt="Stroberies on the plate"
-                            class=" img-fluid w-100 ps-4 pt-4 pe-4">
+                        <img src="../images/castle.png" alt="StillLife" class=" img-fluid w-100 ps-4 pt-4 pe-4">
                         <div>
-                            <p class="text-center mt-3">Stroberies</p>
+                            <p class="text-center mt-3">Castle with a dragon</p>
                         </div>
-                    </div>
-                    </div>
-                    <div class="h-35 mb-4  "
-                    style="background: color #fffaf2; border: 1px solid #dddddd; border-radius: 3%;">
-                    <img src="../../../../Html_CSS_Start/Step_6/Bootstrap/images/castle.png" alt="Stroberies on the plate"
-                        class=" img-fluid w-100 ps-4 pt-4 pe-4">
-                    <div>
-                        <p class="text-center mt-3">Stroberies</p>
-                    </div>
-                </div>
 
-                </div>
+
 
             </div>
         </div>
@@ -133,9 +183,11 @@
     </section>
 
     <!-- connect js -->
-    <script src="../assets/bootstrap-5/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <script src="../assets/bootstrap-5/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
 </body>
- <!-- Hw
+<!-- Hw
 1.Кортинки поставит с фигми все кортинки!Попробоват поставит новиы блок 
+2.Postavit kortinkou s galireiei s figmi zdelat odelni block dla kortini'zdelat adaptivnim s bootstrapam'
 -->
+
 </html>
